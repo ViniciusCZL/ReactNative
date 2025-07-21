@@ -1,0 +1,85 @@
+Classes Essenciais do NativeWind para React Native
+1. Layout e Flexbox
+Classe	O que faz
+flex	Define display flex
+flex-1	Flex grow 1 (preenche espaço)
+flex-row	Flex direction: row
+flex-col	Flex direction: column (padrão)
+justify-start	Justifica itens no início
+justify-center	Centraliza horizontalmente
+justify-end	Justifica itens no fim
+items-start	Alinha itens no início (cross axis)
+items-center	Centraliza itens no cross axis
+items-end	Alinha itens no fim
+
+2. Espaçamento (Margin & Padding)
+Classe	O que faz
+m-4	Margin em todos os lados 16px
+mt-2	Margin top 8px
+mb-3	Margin bottom 12px
+ml-1	Margin left 4px
+mr-5	Margin right 20px
+p-4	Padding em todos os lados 16px
+pt-2	Padding top 8px
+pb-3	Padding bottom 12px
+pl-1	Padding left 4px
+pr-5	Padding right 20px
+
+(os números seguem a escala padrão Tailwind: 0=0, 1=4px, 2=8px, 3=12px, 4=16px, 5=20px, etc)
+
+3. Cores
+Classe	Descrição
+bg-blue-500	Fundo azul (cor padrão do Tailwind)
+bg-red-400	Fundo vermelho
+bg-green-300	Fundo verde
+text-black	Texto preto
+text-white	Texto branco
+text-gray-700	Texto cinza escuro
+
+(Você pode personalizar as cores no Tailwind config se quiser)
+
+4. Tipografia
+Classe	O que faz
+text-xs	Texto extra pequeno
+text-sm	Texto pequeno
+text-base	Texto padrão (16px)
+text-lg	Texto grande
+text-xl	Texto extra grande
+font-thin	Fonte fina
+font-normal	Fonte normal
+font-bold	Fonte negrito
+text-center	Texto centralizado
+uppercase	Texto em maiúsculas
+
+5. Bordas e Sombra
+Classe	O que faz
+rounded	Borda arredondada (4px)
+rounded-lg	Borda mais arredondada (12px)
+border	Borda padrão 1px cinza
+border-2	Borda 2px
+border-gray-300	Cor da borda cinza
+shadow	Aplica sombra básica
+
+6. Tamanhos (Width, Height, etc.)
+Classe	O que faz
+w-10	Largura 40px
+w-full	Largura 100%
+h-10	Altura 40px
+h-full	Altura 100%
+max-w-xs	Largura máxima pequena
+
+7. Posicionamento
+Classe	O que faz
+absolute	Posição absoluta
+relative	Posição relativa
+top-0	Top 0
+bottom-4	Bottom 16px
+left-2	Left 8px
+right-3	Right 12px
+
+Extras:
+opacity-50 — Opacidade 50%
+
+overflow-hidden — Oculta conteúdo que ultrapassa o container
+
+hidden — Esconde o elemento
